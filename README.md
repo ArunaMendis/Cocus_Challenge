@@ -16,6 +16,11 @@ Make sure you have NodeJS installed.
 - git clone [git@github.com:ArunaMendis/Cocus_Challenge.git](https://github.com/ArunaMendis/Cocus_Challenge.git)
 - cd Cocus_Challenge
 - npm install
-- To execute all the tests 
-  - npx cypress open
-- 
+- To execute all the tests; 
+  - npm test
+- To manually execute the test in Browser;
+  - npm cypress open
+  - Click E2E Testing in "Welcome to Cypress"
+  - Click Chrome Browser
+  - Click Start E2E Testing in Chrome button
+  - Click swaglabs.cy.ts
